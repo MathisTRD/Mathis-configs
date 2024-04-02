@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+:root,
+.encore-dark-theme .encore-bright-accent-set,
+.progress-bar,
+.progress-bar:hover,
+.hW9km7ku6_iggdWDR_Lg {
+  --background-base: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button-active: var(--spice-color) !important;
+  --lyrics-color-active: var(--spice-color) !important;
+  --lyrics-color-inactive: #464849 !important;
+  --lyrics-color-background: var(--spice-main) !important;
+  --lyrics-color-messaging: #333333 !important;
+}
+
+.__background,
+.main-playButton-primary,
+.ButtonInner-sc-14ud5tc-0,
+.main-button-primary,
+.control-button--active-dot:after,
+input:checked ~ .x-toggle-indicatorWrapper {
+  background-color: var(--spice-color) !important;
+  background: var(--spice-color) !important;
+  color: var(--spice-contrast) !important;
+}
+
+.button-module__button___hf2qg_marketplace {
+  color: black;
+  background-color: var(--spice-color);
+}
+
+.Dropdown-menu {
+  background-color: #282828;
+  max-height: 30vh;
+  max-width: 350px;
+  min-width: 145px;
+  border: 4px;
+}
+
+.__color,
+.HbKLiGoYM4dpuK8L4TMX,
+.connect-device-list-item--active,
+.connect-device-list-item--active *,
+.control-button--active,
+.main-repeatButton-button[aria-checked="true"],
+.main-repeatButton-button[aria-checked="mixed"],
+.main-shuffleButton-button[aria-checked="true"],
+button[aria-label="Playing"],
+.control-button--active-dot:after {
+  color: var(--spice-color) !important;
+  fill: var(--spice-color) !important;
+}
+
+.__color_contrast,
+.main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
+  color: var(--spice-contrast) !important;
+  fill: var(--spice-contrast) !important;
+}
+
+.__heart,
+.control-button-heart,
+.main-addButton-active {
+  color: var(--spice-heart) !important;
+  fill: var(--spice-heart) !important;
+}
+
+.__transparent,
+.main-entityHeader-backgroundColor,
+.main-home-homeHeader,
+.main-actionBarBackground-background {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.__scale_hover:hover,
+.main-playButton-PlayButton:hover,
+.main-playButton-primary:hover,
+.ButtonInner-sc-14ud5tc-0:hover,
+.main-button-primary:hover,
+.HbKLiGoYM4dpuK8L4TMX:hover {
+  -webkit-transform: scale(1.1) !important;
+  transform: scale(1.1) !important;
+}
+
+.main-topBar-background {
+  background-color: var(--spice-player) !important;
+  background: var(--spice-player) !important;
+}
+
+.iB16LxoPzDeVZo8zPhPQ {
+  isolation: unset !important;
+}
+
+.control-button-heart:hover,
+.main-addButton-active:hover {
+  opacity: 0.75 !important;
+}
+
+.HbKLiGoYM4dpuK8L4TMX {
+  border-radius: 50% !important;
+}
+
+.HbKLiGoYM4dpuK8L4TMX._APVWqivXc4YqgsnpFkP {
+  background-color: var(--spice-contrast) !important;
+}
+
+.HbKLiGoYM4dpuK8L4TMX svg {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.progress-bar:hover .epWhU7hHGktzlO_dop6z {
+  background: var(--spice-color) !important;
+  background-color: var(--spice-color) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowTitle,
+.main-trackList-trackListRow.main-trackList-active .main-trackList-rowMarker {
+  color: var(--spice-color) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active .main-trackList-playingIcon {
+  -webkit-filter: brightness(1000%) !important;
+  filter: brightness(1000%) !important;
+}
+
+#spicetify-group-session-menu > img {
+  -webkit-filter: grayscale(100%) contrast(200%) !important;
+  filter: grayscale(100%) contrast(200%) !important;
+  border-radius: 5px !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 12px !important;
+}
+
+.os-theme-spotify.os-host-transition
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track
+  > .os-scrollbar-handle {
+  border-radius: 4px;
+  width: 6px;
+  background-color: var(--spice-button-disabled);
+}
+.os-theme-spotify.os-host-transition
+  > .os-scrollbar-vertical
+  > .os-scrollbar-track {
+  width: 6px;
+}
+
+.main-connectBar-connectBar {
+  display: none !important;
+}
+
+.x-progressBar-fillColor {
+  transition: 500ms;
+}
+.progress-bar__slider {
+  transition: 500ms;
+}

@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+// Font with emoji support
+* {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+// globals
+:root,
+.encore-dark-theme .encore-bright-accent-set,
+.progress-bar,
+.progress-bar:hover,
+.hW9km7ku6_iggdWDR_Lg {
+  --background-base: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button: var(--spice-color) !important;
+  --is-active-fg-color: var(--spice-color) !important;
+  --spice-button-active: var(--spice-color) !important;
+
+  // lyrics tab
+  --lyrics-color-active: var(--spice-color) !important;
+  --lyrics-color-inactive: #464849 !important;
+  --lyrics-color-background: var(--spice-main) !important;
+  --lyrics-color-messaging: #333333 !important;
+}
+
+.__background {
+  background-color: var(--spice-color) !important;
+  background: var(--spice-color) !important;
+  color: var(--spice-contrast) !important;
+}
+
+.__color {
+  color: var(--spice-color) !important;
+  fill: var(--spice-color) !important;
+}
+
+.__color_contrast {
+  color: var(--spice-contrast) !important;
+  fill: var(--spice-contrast) !important;
+}
+
+.__heart {
+  color: var(--spice-heart) !important;
+  fill: var(--spice-heart) !important;
+}
+
+.__transparent {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+.__scale_hover {
+  &:hover {
+    transform: scale(1.1) !important;
+  }
+}
+
+// page top bar
+.main-topBar-background {
+  background-color: var(--spice-player) !important;
+  background: var(--spice-player) !important;
+}
+
+// big header color
+.main-entityHeader-backgroundColor,
+.main-home-homeHeader,
+.main-actionBarBackground-background {
+  @extend .__transparent;
+}
+
+.iB16LxoPzDeVZo8zPhPQ {
+  isolation: unset !important;
+}
+
+.control-button-heart,
+.main-addButton-active {
+  @extend .__heart;
+
+  &:hover {
+    opacity: 0.75 !important;
+  }
+}
+
+.main-playButton-PlayButton,
+.main-playButton-primary,
+.ButtonInner-sc-14ud5tc-0,
+.main-button-primary {
+  @extend .__background;
+  @extend .__scale_hover;
+}
+
+.HbKLiGoYM4dpuK8L4TMX {
+  @extend .__color;
+  @extend .__scale_hover;
+
+  border-radius: 50% !important;
+
+  &._APVWqivXc4YqgsnpFkP {
+    background-color: var(--spice-contrast) !important;
+  }
+
+  svg {
+    transform: scale(1.1);
+  }
+}
+
+.progress-bar:hover .epWhU7hHGktzlO_dop6z {
+  background: var(--spice-color) !important;
+  background-color: var(--spice-color) !important;
+}
+
+.main-trackList-trackListRow.main-trackList-active {
+  .main-trackList-rowTitle,
+  .main-trackList-rowMarker {
+    color: var(--spice-color) !important;
+  }
+
+  .main-trackList-playingIcon {
+    filter: brightness(1000%) !important;
+  }
+}
+
+.connect-device-list-item--active,
+.connect-device-list-item--active *,
+.control-button--active,
+.main-repeatButton-button {
+  @extend .__color;
+}
+
+.main-connectBar-connectBar.encore-bright-accent-set.mVVxN9ZfIRjiQfDuzPCZ.main-type-mesto {
+  @extend .__color_contrast;
+}
+
+// group session icons
+#spicetify-group-session-menu > img {
+  filter: grayscale(100%) contrast(200%) !important;
+  border-radius: 5px !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 12px !important;
+}
