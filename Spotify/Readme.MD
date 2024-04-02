@@ -22,7 +22,7 @@ Lyrics:
 
 ## Extensions used
 
-[Immersive View](https://github.com/ohitstom/spicetify-extensions/tree/main/immersiveView) by OhItsTom
-[Full App Display](https://github.com/huhridge/huh-spicetify-extensions/tree/main/fullAppDisplayModified) by khanhas
-[Play Next](https://github.com/daksh2k/Spicetify-stuff/blob/master/Extensions/playNext.js) by daksh2k
-[Group Session](https://github.com/timll/spotify-group-session) by Tim Lange (@timll)
+[Immersive View](https://github.com/ohitstom/spicetify-extensions/tree/main/immersiveView) by OhItsTom  
+[Full App Display](https://github.com/huhridge/huh-spicetify-extensions/tree/main/fullAppDisplayModified) by khanhas  
+[Play Next](https://github.com/daksh2k/Spicetify-stuff/blob/master/Extensions/playNext.js) by daksh2k  
+[Group Session](https://github.com/timll/spotify-group-session) by Tim Lange (@timll)  
