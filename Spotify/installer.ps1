@@ -15,9 +15,9 @@ if(!(Test-Path -Path $folderPath))
 }
 
 # download theme
-Invoke-WebRequest https://raw.githubusercontent.com/MathisTRD/Clark/main/Theme/color.ini -OutFile $folderPath/color.ini
-Invoke-WebRequest https://raw.githubusercontent.com/MathisTRD/Clark/main/Theme/user.css -OutFile $folderPath/user.css
-Invoke-WebRequest https://raw.githubusercontent.com/MathisTRD/Clark/main/Theme/user.scss -OutFile $folderPath/user.scss
+Invoke-WebRequest https://raw.githubusercontent.com/MathisTRD/configs/main/Spotify/Theme/color.ini -OutFile $folderPath/color.ini
+Invoke-WebRequest https://raw.githubusercontent.com/MathisTRD/configs/main/Spotify/Theme/user.css -OutFile $folderPath/user.css
+Invoke-WebRequest https://raw.githubusercontent.com/MathisTRD/configs/main/Spotify/Theme/user.scss -OutFile $folderPath/user.scss
 
 # configure extensions
 spicetify config extensions group-session.js
