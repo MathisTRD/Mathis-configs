@@ -4,7 +4,7 @@ This is my own take on the classical Spotify look with a modern black&white colo
 
 ## Installation
 
-**! You MUST install Spotify from the Spotify Web Page and NOT the Microsoft Store beforehand !**
+**! You MUST install Spotify from the [Spotify Web Page](https://download.scdn.co/SpotifySetup.exe) and NOT the Microsoft Store beforehand !**
 
 Just run the ps1 intaller file and it should start installing all the extensions and restart Spotify automatically.
 Otherwise, copy all the content of the ps1 installation file into a PowerShell window and hit ENTER.
