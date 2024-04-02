@@ -12,13 +12,13 @@ Otherwise, copy all the content of the ps1 installation file into a PowerShell w
 ## Screenshots
 
 Main Page:
-![App Screenshot](/Screenshots/Spotify/MainPage.png?raw=true "Main Page")
+![App Screenshot](./Screenshots/MainPage.png?raw=true "Main Page")
 
 FullDisplay:
-![App Screenshot](/Screenshots/Spotify/FullDisplay.png?raw=true "FullAppDisplay")
+![App Screenshot](./Screenshots/FullDisplay.png?raw=true "FullAppDisplay")
 
 Lyrics:
-![App Screenshot](/Screenshots/Spotify/Lyrics.png?raw=true "Lyrics")
+![App Screenshot](./Screenshots/Lyrics.png?raw=true "Lyrics")
 
 ## Extensions used
 
