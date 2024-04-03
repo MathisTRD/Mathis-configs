@@ -2,37 +2,23 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "palette": {
     "white": "#ffffff",
-    "black": "#000000"
+    "bgcolor": "#777777"
   },
   "blocks": [
     {
       "alignment": "left",
       "segments": [
         {
-          "background": "black",
+          "background": "background",
           "foreground": "white",
           "powerline_symbol": "\ue0b0",
           "properties": {
+            "always_enabled": true,
             "style": "full"
           },
-          "style": "powerline",
-          "template": " << {{ .Path }} ",
+          "style": "plain",
+          "template": "  {{ .Path }}  ",
           "type": "path"
-        },
-
-        {
-          "background": "p:black",
-          "foreground": "p:white",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "branch_icon": "",
-            "fetch_stash_count": true,
-            "fetch_status": true,
-            "fetch_upstream_icon": true
-          },
-          "style": "powerline",
-          "template": " \u279c ({{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }}) ",
-          "type": "git"
         },
 
         {
@@ -44,9 +30,19 @@
           "style": "plain",
           "template": " \ueba2 {{ .FormattedMs }} ",
           "type": "executiontime"
+        },
+        {
+          "background": "background",
+          "foreground": "white",
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "  ->",
+          "type": "text"
         }
       ],
-      "type": "rprompt"
+      "type": "prompt"
     }
   ],
   "final_space": true,
