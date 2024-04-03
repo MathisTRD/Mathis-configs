@@ -9,20 +9,6 @@
       "alignment": "left",
       "segments": [
         {
-          "type": "text",
-          "style": "diamond",
-          "trailing_diamond": "\ue0b4",
-          "foreground": "p:white",
-          "background": "p:black",
-          "template": "{{ if .Env.PNPPSSITE }}\u00A0{{ end }}"
-        }
-      ],
-      "type": "rprompt"
-    },
-    {
-      "alignment": "left",
-      "segments": [
-        {
           "background": "black",
           "foreground": "white",
           "powerline_symbol": "\ue0b0",
